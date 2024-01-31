@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulationApp", "StringManipulationApp\StringManipulationApp.csproj", "{118CFD35-0447-4994-AE31-DD49F3749C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulationApp.Test", "StringManipulationApp.Test\StringManipulationApp.Test.csproj", "{B82EE80B-E1E6-42B9-BCD1-2677EBCA4FD5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{118CFD35-0447-4994-AE31-DD49F3749C63} = {118CFD35-0447-4994-AE31-DD49F3749C63}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118CFD35-0447-4994-AE31-DD49F3749C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118CFD35-0447-4994-AE31-DD49F3749C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118CFD35-0447-4994-AE31-DD49F3749C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118CFD35-0447-4994-AE31-DD49F3749C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82EE80B-E1E6-42B9-BCD1-2677EBCA4FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82EE80B-E1E6-42B9-BCD1-2677EBCA4FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82EE80B-E1E6-42B9-BCD1-2677EBCA4FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82EE80B-E1E6-42B9-BCD1-2677EBCA4FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB9BCDC1-E12C-49BD-BECF-0DB5721377C8}
+	EndGlobalSection
+EndGlobal
