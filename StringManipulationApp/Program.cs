@@ -27,7 +27,24 @@ namespace StringManipulationApp {
         }
 
         public static List<string> ManipulateStrings(List<string> inputList) {
-            return inputList;
+            List<string> manipulatedList = new List<string>();
+
+            foreach (string inputString in inputList) {
+                // Split the input string by '-' character
+                string[] parts = inputString.Split('-');
+
+                if (parts.Length == 2) {
+                    // Reconstruct the string with 'n' at the beginning
+                    string manipulatedString = parts[1] + parts[0];
+
+                    manipulatedList.Add(manipulatedString);
+                }
+                else {
+                    Console.WriteLine($"Invalid input: {inputString}");
+                }
+            }
+
+            return manipulatedList;
         }// end ManipulateStrings
     }
 }
